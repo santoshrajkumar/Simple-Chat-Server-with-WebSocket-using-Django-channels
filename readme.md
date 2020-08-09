@@ -22,5 +22,8 @@ application = ProtocolTypeRouter({
 
 ## Fix 2: Redis ERR unknown command 'BZPOPMIN' (for Windows users):
 * You may have installed redis 3.2.100 from <b>MicrosoftArchive Redis</b>](https://github.com/microsoftarchive/redis/releases). But this gave me the above mentioned error.
+To fix that, download redis 5.0.9 from <b>tporadowski/redis</b>](https://github.com/tporadowski/redis/releases). Run this server, and you'll be good.
+
+Please give your feedback if found useful at: https://smrcontact.herokuapp.com
 
 
